@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 
 class QuizQuestion extends Component {
-render (){
-  return(
-    <main>
+  render (){
+    return(
+      <main>
         <section>
           <p>{this.props.instruction_text}</p>
         </section>
@@ -14,6 +14,6 @@ render (){
         </section>
       </main>
     )
-}
+  }
 }
 export default QuizQuestion
