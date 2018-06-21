@@ -4,7 +4,7 @@ import QuizQuestionButton from './QuizQuestionButton.js'
 class QuizQuestion extends Component {
   constructor(props){
     super(props)
-    this.State = { incorrectAnswer: false }
+    this.state = { incorrectAnswer: false }
     
   }
   handleClick(buttonText){
@@ -30,7 +30,7 @@ class QuizQuestion extends Component {
             })}
           </ul>
         </section>
-        {this.state.incorrectAnswer ? <p className='error'>Sorry, thats's not right</p> : null}
+        {this.state.incorrectAnswer ? <p className='error'>Sorry, thats's not right</p> : null }
       </main>
     )
   }
